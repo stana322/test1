@@ -70,7 +70,7 @@ st.title('Streamlit Hello World') # タイトル
 
 st.write('Display Image') #画像の表示
 
-img = Image.open('pic/img031.jpg') # 画像の読み込み
+img = Image.open('pyファイル/3-0_streamlit基礎/pic/img031.jpg') # 画像の読み込み
 st.image(img, caption='sample', use_column_width=True) # 画像の表示
 
 import streamlit as st
